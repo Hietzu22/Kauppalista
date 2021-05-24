@@ -1,7 +1,3 @@
 # Kauppalista
 
-Tämä on sovellus, jonka avulla voi tehdä ostoslistan niistä asioista, mitä tarvitsee kaupasta.
-
-Ominaisuudet:
-Kauppalista
-Usein tarvittavien ruokatarvikkeiden lista
+Tämä on sovellus, johon voit tehdä ruokalistan ja katsoa sitä kaupassa puhelimen kautta. Lista tallentuu tietokantaan.
