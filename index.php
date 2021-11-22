@@ -1,12 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kauppalista</title>
-</head>
-<body>
-    
-</body>
-</html>
+<?php include_once 'layout/top.inc.php'; ?>
+<?php include_once 'layout/nav.inc.php'; ?>
+
+<div class="jumbotron">
+    <h1 class="display-3">Tervetuloa kauppalistaan</h1>
+</div>
+
+<h1>Usein ostetut</h1>
+
+<h1>Kauppalista</h1>
+
+<?php include_once 'layout/bot.inc.php'; ?>
