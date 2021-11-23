@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Lisää kauppalistaan</a>
+                <a class="nav-link" href="addItems.php">Lisää kauppalistaan</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Lisää usein ostettuihin</a>
