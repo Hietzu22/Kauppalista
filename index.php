@@ -2,7 +2,7 @@
 <?php include_once 'layout/nav.inc.php'; ?>
 
 <div class="jumbotron">
-    <h1 class="display-3">Tervetuloa kauppalistaan</h1>
+    <h1 class="display-3">Tervetuloa</h1>
 </div>
 
 <h1>Usein ostetut</h1>

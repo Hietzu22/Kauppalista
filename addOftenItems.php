@@ -7,8 +7,8 @@
 
 <div class="container">
     <div class="form-group">
-        <label class="col-form-label mt-4" for="addItems">Lisää tuotteita kauppalistaan</label>
-        <input type="text" class="form-control" placeholder="Lisää tuote" id="addItems">
+        <label class="col-form-label mt-4" for="addOftenItems">Lisää tuotteita usein ostettuihin</label>
+        <input type="text" class="form-control" placeholder="Lisää tuote" id="addOftenItems">
     </div>
     <button type="submit" class="btn btn-primary">Lisää</button>
 </div>

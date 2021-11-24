@@ -10,10 +10,13 @@
                 <a class="nav-link" href="addItems.php">Lisää kauppalistaan</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Lisää usein ostettuihin</a>
+                <a class="nav-link" href="addOftenItems.php">Lisää usein ostettuihin</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Kirjaudu</a>
+                <a class="nav-link" href="login.php">Kirjaudu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.php">Rekisteröidy</a>
             </li>
         </ul>
     </div>
