@@ -2,6 +2,13 @@
 <?php include_once 'layout/nav.inc.php'; ?>
 
 <div class="container">
+
+    <div id="msg" class="alert alert-dismissible alert-warning d-none">
+        <button type="button" class="close" data-dismiss="alert">&times;</button>
+        <h4 class="alert-heading">Warning!</h4>
+        <p class="mb-0"></p>
+    </div>
+
     <form>
         <fieldset>
             <legend>Kirjaudu</legend>
@@ -17,5 +24,8 @@
         </fieldset>
     </form>
 </div>
+
+<script src="JS/common.js"></script>
+<script src="JS/login.js"></script>
 
 <?php include_once 'layout/bot.inc.php'; ?>
