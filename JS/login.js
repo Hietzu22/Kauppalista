@@ -1,9 +1,32 @@
-const queryString = window.location.search;
-const urlParams = new URLSearchParams(queryString);
+document.forms['login'].addEventListener('submit', loginUser);
 
-if (urlParams.has('msg') && urlParams.has('type')) {
-    const msg = urlParams.get('msg');
-    const type = urlParams.get('type');
+function loginUser(event) {
+    event.preventDefault();
+    const username = document.forms['login']['username'].value;
+    const password = document.forms['login']['password'].value;
 
-    showMessage(type, msg);
+    if (username.length <= 0) {
+        showMessage('error','Käyttäjänimi on pakollinen!');
+        return;
+    }
+
+    if (password.length < 3) {
+        showMessage('error','Salasanan minimipituus on 3 merkkiä!');
+        return;
+    }
+
+    let ajax = new XMLHttpRequest();
+    ajax.onload = function() {
+        const data = JSON.parse(this.responseText);
+        console.log(data);
+        if (data.hasOwnProperty('success')) {
+            window.location.href = "index.php?type=success&msg=Kirjauduttu onnistuneesti, Tervetuloa!"
+            return;
+        } else {
+            showMessage('error', 'Kirjautuminen epäonnistui!')
+        }
+    }
+    ajax.open("POST", "backend/loginUser.php", true);
+    ajax.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+    ajax.send("username="+username+"&password="+password);
 }

@@ -9,7 +9,7 @@
         <p class="mb-0"></p>
     </div>
 
-    <form>
+    <form name="login">
         <fieldset>
             <legend>Kirjaudu</legend>
             <div class="form-group">

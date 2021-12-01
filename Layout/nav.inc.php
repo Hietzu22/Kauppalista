@@ -12,12 +12,18 @@
             <li class="nav-item">
                 <a class="nav-link" href="addOftenItems.php">Lisää usein ostettuihin</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link" href="login.php">Kirjaudu</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="register.php">Rekisteröidy</a>
-            </li>
+            <?php if (isset($_SESSION['logged_in'])): ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="logout.php">Kirjaudu ulos</a>
+                </li>
+            <?php else: ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="login.php">Kirjaudu</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.php">Rekisteröidy</a>
+                </li>
+            <?php endif; ?>
         </ul>
     </div>
 </nav>
