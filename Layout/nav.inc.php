@@ -6,13 +6,13 @@
 
     <div class="collapse navbar-collapse" id="navbarColor01">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="addItems.php">Lisää kauppalistaan</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="addOftenItems.php">Lisää usein ostettuihin</a>
-            </li>
-            <?php if (isset($_SESSION['logged_in'])): ?>
+        <?php if (isset($_SESSION['logged_in'])): ?>
+                <li class="nav-item">
+                    <a class="nav-link" href="addItems.php">Lisää kauppalistaan</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="addOftenItems.php">Lisää usein ostettuihin</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" href="logout.php">Kirjaudu ulos</a>
                 </li>

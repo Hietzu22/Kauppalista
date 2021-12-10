@@ -22,7 +22,7 @@ CREATE TABLE IF NOT EXISTS `kauppadb`.`user` (
   `username` VARCHAR(50) NOT NULL,
   `pwd` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE INDEX `username_UNIQUE` (`username` ASC))
+  UNIQUE INDEX `username_UNIQUE` (`username` ASC) VISIBLE)
 ENGINE = InnoDB;
 
 
