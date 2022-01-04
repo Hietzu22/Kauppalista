@@ -11,9 +11,6 @@
                     <a class="nav-link" href="addItems.php">Lisää kauppalistaan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="addOftenItems.php">Lisää usein ostettuihin</a>
-                </li>
-                <li class="nav-item">
                     <a class="nav-link" href="logout.php">Kirjaudu ulos</a>
                 </li>
             <?php else: ?>

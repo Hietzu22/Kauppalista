@@ -22,24 +22,14 @@ CREATE TABLE IF NOT EXISTS `kauppadb`.`user` (
   `username` VARCHAR(50) NOT NULL,
   `pwd` VARCHAR(255) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE INDEX `username_UNIQUE` (`username` ASC) VISIBLE)
+  UNIQUE INDEX `username_UNIQUE` (`username` ASC) )
 ENGINE = InnoDB;
 
 
 -- -----------------------------------------------------
--- Table `kauppadb`.`often`
+-- Table `kauppadb`.`items`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `kauppadb`.`often` (
-  `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
-  `itemname` MEDIUMTEXT NOT NULL,
-  PRIMARY KEY (`id`))
-ENGINE = InnoDB;
-
-
--- -----------------------------------------------------
--- Table `kauppadb`.`sometimes`
--- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `kauppadb`.`sometimes` (
+CREATE TABLE IF NOT EXISTS `kauppadb`.`items` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `itemname` MEDIUMTEXT NOT NULL,
   PRIMARY KEY (`id`))

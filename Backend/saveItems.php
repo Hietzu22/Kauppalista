@@ -24,7 +24,7 @@ $items = $_POST['items'];
 include_once 'pdo-connect.php';
 
 try {
-    $stmt = $conn->prepare("INSERT INTO sometimes (itemname) VALUES (:itemname);");
+    $stmt = $conn->prepare("INSERT INTO items (itemname) VALUES (:itemname);");
     $stmt->bindParam(':itemname', $items);
     if ($stmt->execute() == false) {
         $data = array(
@@ -41,5 +41,5 @@ try {
     );
 }
 
-
+header("Content-type: application/json;charset=utf-8");
 echo json_encode($data);

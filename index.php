@@ -17,12 +17,14 @@
         <p class="mb-0"></p>
     </div>
 
-<h1>Usein ostetut</h1>
-
 <h1>Kauppalista</h1>
+
+<ul id="itemsUl" class="list-group"></ul>
 
 </div>
 
+<script src="JS/getItems.js"></script>
 <script src="JS/common.js"></script>
 
 <?php include_once 'layout/bot.inc.php'; ?>
+

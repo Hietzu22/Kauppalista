@@ -1,1 +1,103 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T06:54:31.072Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="hpkC9bwCgpfoqoWamOGU" version="14.6.13" type="device"><diagram id="Hx8iuyA69YfrsMXvUaIC" name="Page-1">5Vpbb5swFP41PG4Cm5DkcU2zTlq7i7qpa9+s4AU3BjNjctmvnwkmXNxmTEp3iCrlAR/fv/Px2ecQB8/i7ZUkaXQjQsod5IZbB186CHk+Qk7xc8NdaRkHxrCULDSNasMt+02N0TXWnIU0azVUQnDF0rZxIZKELlTLRqQUm3azn4K3Z03JklqG2wXhtvWOhSqqVue6dcUHypaR6tbEpGptDFlEQrFpmPDcwTMphCqf4u2M8gK9Cpiy3/tnag8rkzRRfTrw8OHr3Rcyk/H86m59ES78Xw9vArM2tat2TEMNgCkKqSKxFAnh89p6IUWehLQY1dWlus21EKk2etr4SJXaGW+SXAltilTMTW05ZzHRs1sxpkzkckGPrN+wSRG5pOpIO/8AuKYqFTFVcqf7ScqJYuv2OojhzPLQrkZVPxhg/wFk5EOgTLdM/Si6vx2Z0r0ZrHi+3DYLu6qQ6P02OhXF+2q8olB325eqfgAeRRjUpeW4a8JzM9NHkqcp4SxTJBNrPUSeWV6vfVoAuomYorcp2cOx0fr51FuyplLR7XFUbRBMB7/SHqO+GJvypqFlVZuoIWOB+0K4TYfzJnhH34QTMtrvyegJJKF9i9Df6CpTbKW3q5wZdt7ZIgZNZ9+DprN37ufnuCc3PdAD1BuDyMbhMGwehY2T8eUPw97uGUG6Z2xpx/eMskSbRKaoylWxklysiN7Hmq1WVO8FWktGfltLRmNwLXEtUF4HySc9ST4GlSAE6h1v8N7xnnnf/o97JpYEXbPMXFsGenmZQgsOAhGcE1LTqzJCf+Um6NX6sJ/XJh39/TMFlXbPEo9PQsZEB/PlFUZk+7AeXEKwO7g7ix023uiL3orAgzXuggWe+ygv6S2wvohBEKuLVQAfWNsH+lCI5XUjB3hiTYdKrC5W8MRCsKkEuMO4zJf3SayD5hLQBNQ/cFFwf/8EoP7BltY0vnzA53W6YRYaQSsOHkEw+pTMHPVkJgb9JIfPPRffH2fYr9n2NfY8wiUPPFzC555xQUHfQwo0osfoteCMQbOu1TLP+ssPvCwgO377rDINlwAHq5sZ8MCDXWxn6671caMtVxqctHgDOY319vY0JOucc1IYJXuKi+5jUZmQlMETs4s1Ag+WsX3ZHwoxu5mFARDTzoU6KOB62ossJZqMwbJ4PhVZy5H1SpuDD84tL8lhXaz/Pbuva/wJGc//AA==</diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram id="Hx8iuyA69YfrsMXvUaIC" name="Page-1">
+        <mxGraphModel dx="1093" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1000" pageHeight="1000" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-2" target="ldZQWPaCrmEGWvBdc4qZ-4" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-2" target="ldZQWPaCrmEGWvBdc4qZ-23" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-2" value="Kauppalistasovellus" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="330" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-4" target="ldZQWPaCrmEGWvBdc4qZ-8" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-4" value="Tekstikenttä" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="410" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-7" target="ldZQWPaCrmEGWvBdc4qZ-14" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-7" target="ldZQWPaCrmEGWvBdc4qZ-15" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-7" value="Usein ostetut ruokatarvikkeet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-8" target="ldZQWPaCrmEGWvBdc4qZ-7" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-8" target="ldZQWPaCrmEGWvBdc4qZ-11" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-8" value="Lisää" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="490" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-11" target="ldZQWPaCrmEGWvBdc4qZ-18" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-11" target="ldZQWPaCrmEGWvBdc4qZ-19" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-11" value="Normaali ostoslista" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="570" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-14" value="Muokkaa" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-15" value="Poista" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-18" value="Muokkaa" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-19" value="Poista" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="610" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-23" target="ldZQWPaCrmEGWvBdc4qZ-25" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-23" target="ldZQWPaCrmEGWvBdc4qZ-26" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-23" value="Kauppalistat" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-25" target="ldZQWPaCrmEGWvBdc4qZ-33" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-25" target="ldZQWPaCrmEGWvBdc4qZ-34" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-25" value="Normaali ostoslista" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="300" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-26" target="ldZQWPaCrmEGWvBdc4qZ-29" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="ldZQWPaCrmEGWvBdc4qZ-26" target="ldZQWPaCrmEGWvBdc4qZ-31" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-26" value="Usein ostetut ruokatarvikkeet" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="540" y="170" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-29" value="Otsikko" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-31" value="List Group elementin avulla eri ruokatarvikkeet ja napit" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="700" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-33" value="Otsikko" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="130" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="ldZQWPaCrmEGWvBdc4qZ-34" value="&lt;span&gt;List Group elementin avulla eri ruokatarvikkeet ja napit&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="140" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
