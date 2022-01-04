@@ -17,9 +17,6 @@
                 <li class="nav-item">
                     <a class="nav-link" href="login.php">Kirjaudu</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="register.php">Rekisteröidy</a>
-                </li>
             <?php endif; ?>
         </ul>
     </div>
