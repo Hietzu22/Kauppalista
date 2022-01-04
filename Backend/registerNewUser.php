@@ -12,7 +12,7 @@ $password = password_hash($_POST['password'], PASSWORD_DEFAULT);
 include_once 'pdo-connect.php';
 
 try {
-    $stmt = $conn->prepare("INSERT INTO user (username, pwd) VALUES (:username, :pwd);");
+    $stmt = $conn->prepare("INSERT INTO users (username, pwd) VALUES (:username, :pwd);");
     $stmt->bindParam(':username', $username);
     $stmt->bindParam(':pwd', $password);
     if ($stmt->execute() == false) {

@@ -15,9 +15,9 @@ CREATE SCHEMA IF NOT EXISTS `kauppadb` DEFAULT CHARACTER SET utf8 ;
 USE `kauppadb` ;
 
 -- -----------------------------------------------------
--- Table `kauppadb`.`user`
+-- Table `kauppadb`.`users`
 -- -----------------------------------------------------
-CREATE TABLE IF NOT EXISTS `kauppadb`.`user` (
+CREATE TABLE IF NOT EXISTS `kauppadb`.`users` (
   `id` INT UNSIGNED NOT NULL AUTO_INCREMENT,
   `username` VARCHAR(50) NOT NULL,
   `pwd` VARCHAR(255) NOT NULL,

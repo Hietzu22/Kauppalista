@@ -15,7 +15,7 @@ $password = $_POST['password'];
 include_once 'pdo-connect.php';
 
 try {
-    $stmt = $conn->prepare("SELECT id, username, pwd FROM user WHERE username = :username");
+    $stmt = $conn->prepare("SELECT id, username, pwd FROM users WHERE username = :username");
     $stmt->bindParam(':username', $username);
 
     if ($stmt->execute() == false) {
