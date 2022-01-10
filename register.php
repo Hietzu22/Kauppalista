@@ -29,7 +29,7 @@
     </form>
 </div>
 
-<script src="JS/register.js"></script>
-<script src="JS/common.js"></script>
+<script src="js/register.js"></script>
+<script src="js/common.js"></script>
 
 <?php include_once 'layout/bot.inc.php'; ?>

@@ -23,6 +23,6 @@ if (!isset($_SESSION['logged_in'])) {
     </div>
 </form>
 
-<script src="JS/addItems.js"></script>
+<script src="js/addItems.js"></script>
 
 <?php include_once 'layout/bot.inc.php'; ?>

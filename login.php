@@ -25,7 +25,7 @@
     </form>
 </div>
 
-<script src="JS/common.js"></script>
-<script src="JS/login.js"></script>
+<script src="js/common.js"></script>
+<script src="js/login.js"></script>
 
 <?php include_once 'layout/bot.inc.php'; ?>

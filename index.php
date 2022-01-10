@@ -23,8 +23,8 @@
 
 </div>
 
-<script src="JS/getItems.js"></script>
-<script src="JS/common.js"></script>
+<script src="js/getItems.js"></script>
+<script src="js/common.js"></script>
 
 <?php include_once 'layout/bot.inc.php'; ?>
 
