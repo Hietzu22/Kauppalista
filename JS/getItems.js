@@ -38,9 +38,6 @@ function showItems(data) {
 }
 
 function clickItem(event) {
-    console.log(event.target.dataset.itemId);
-    console.log(event.target.dataset.action);
-
     const action = event.target.dataset.action;
 
     if (action == 'delete') {
@@ -55,9 +52,13 @@ function deleteItem(id) {
     ajax.onload = function() {
         data = JSON.parse(this.responseText);
         console.log(data);
-        let liToDelete = document.querySelector('[data-item-id="' + id + '"]');
-        let parent = liToDelete.parentElement;
-        parent.removeChild(liToDelete);
+        if (data.hasOwnProperty('success')) {
+            let liToDelete = document.querySelector('[data-item-id="' + id + '"]');
+            let parent = liToDelete.parentElement;
+            parent.removeChild(liToDelete);
+        } else {
+            showMessage('error',data.error);
+        }
     }
     ajax.open ("GET", "backend/deleteItem.php?id=" + id);
     ajax.send();

@@ -1,7 +1,8 @@
 <?php
+session_start();
 if (!isset($_SESSION['user_id'])) {
     $data = array(
-        'error' => 'Et ole kirjautunut sisään'
+        'error' => 'Et ole kirjautunut sisään!'
     );
     echo json_encode($data);
     die();
