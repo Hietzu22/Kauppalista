@@ -28,10 +28,10 @@ function showItems(data) {
         newDeleteBtn.className = "btn btn-primary float-right";
         newDeleteBtn.appendChild(deleteText);
 
+        newLi.appendChild(newDeleteBtn);
+
         const liText = document.createTextNode(item.itemname);
         newLi.appendChild(liText);
-        
-        newLi.appendChild(newDeleteBtn);
 
         targetUl.appendChild(newLi);
     });
